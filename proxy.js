@@ -4,7 +4,7 @@ const app = express();
 const proxy = require('ultraviolet-static');
 
 app.use(proxy({
-  target: 'https://example.com',
+  target: 'https://now.gg/apps/roblox-corporation/5349/roblox.html',
   changeOrigin: true,
   pathRewrite: {
     '^/proxy': ''
